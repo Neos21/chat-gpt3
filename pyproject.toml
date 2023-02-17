@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "chat-gpt3"
+version = "0.0.0"
+description = "Chat GPT3 By OpenAI"
+authors = ["Neos21 <neos21@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "chat_gpt3"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^0.26.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
